@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.current-weather,
+.forecast{
+    display: none;
+}
+
+/* Header */
+.header {
+    background: #00796b;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0 0;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px 0;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.search-box button {
+    padding: 10px;
+    background: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #004d40;
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+.location {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.temperature {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.weather {
+    font-size: 1.2em;
+    color: #00796b;
+}
+
+.forecast {
+     justify-content: space-around;
+      margin-top: 20px;
+     }
+
+.day {
+    text-align: center;
+}
+
+.day p {
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    background: #00796b;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Remove underline from all links */
+a {
+    text-decoration: none;
+    color: inherit; /* Optional: inherit the color from the parent */
+}
+
+/* Change the color of visited links */
+a:visited {
+    color: initial; /* You can specify the color you want here */
+}
